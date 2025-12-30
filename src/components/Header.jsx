@@ -1,21 +1,20 @@
 import React from "react";
 import NavLinks from "./Navlinks";
-import ActionButtons from "./ActionButtons";
+import Iconbutton from "./Iconbutton";
+import { Search , Phone } from "lucide-react";
 
 const Header = () => {
     return (
     
-        <div className="flex items-center justify-between px-6 py-4   absolute top-0 w-full bg-transparent">
+        <div className="flex items-center justify-between px-6 py-4 top-0 w-full bg-transparent">
           <div>
-            <h1>shubham computronix</h1>
+            <h1 className="text-2xl font-bold">Shubham computronix</h1>
           </div>
-           <div>
-             <NavLinks />
-            </div>
-
-            <div>
-            <ActionButtons />
-            </div>
+          <div>
+            <NavLinks />
+          </div>
+           <Iconbutton icon={<Search/>}/>
+           <Iconbutton text = "Call now" icon={<Phone/>} />
         </div>
 
     );
