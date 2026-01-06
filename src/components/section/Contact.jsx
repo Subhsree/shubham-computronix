@@ -3,9 +3,11 @@ import { Clock4 , Phone , MapPin  } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <div>
-        <p> Get In Touch </p>
-        <p> Have a question about our products or need a quote for bulk orders? Fill out the form below or visit our store in Nehru Place.</p>
+    <div id="contactsection ">
+        <div>
+            <p> Get In Touch </p>
+            <p> Have a question about our products or need a quote for bulk orders? Fill out the form below or visit our store in Nehru Place.</p>
+        </div>
         <div className="w-72 bg-white rounded-xl shadow-md p-4">
             <div>
                 <span>{<MapPin/>}</span>
@@ -64,7 +66,7 @@ export default function Contact() {
                 />
             </div>
 
-        {/* Subject */}
+            {/* Subject */}
             <div className="mb-4">
                
                 <input
@@ -74,7 +76,7 @@ export default function Contact() {
                 />
             </div>
 
-        {/* Message */}
+             {/* Message */}
             <div className="mb-6">
                 <textarea
                 rows="4"
@@ -83,7 +85,7 @@ export default function Contact() {
                 />
             </div>
 
-        {/* Send Button */}
+             {/* Send Button */}
             <div className="flex justify-center">
                 <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition">
                 Send

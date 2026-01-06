@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <div>
-        <Header/>
-        <div>
+        <div className='min-h-screen'>
+          <Header/>
           <Homesection/>
         </div>
         <Productsection/>

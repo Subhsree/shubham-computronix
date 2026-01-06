@@ -4,7 +4,7 @@ import { Clock4 , ShieldCheck , Wrench , MapPin } from 'lucide-react';
 
 export default function Aboutsection() {
   return ( 
-    <div className='flex px-10'>
+    <div className='min-h-screen flex px-10 py-20' id="aboutsection">
         <div className='flex-1 px-6'>
           <h1 className='text-3xl'>About Shubham Computronix</h1>
           <p className=''>

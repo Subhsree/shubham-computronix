@@ -4,7 +4,7 @@ import product from '../../data';
 
 export default function Productsection() {
   return (
-    <div>
+    <div className='min-h-screen' id="productsection">
       <div className=' flex justify-center'>
           <button className='border rounded-sm px-2 py-1 font-medium'>Our Catalogue </button>
       </div>
